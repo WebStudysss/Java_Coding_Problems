@@ -1,7 +1,6 @@
 import java.util.OptionalInt;
 
 public class P004 {
-
     public boolean solution(String s){
 
         OptionalInt any = s.chars().filter(this::isNotDigit).findAny();
