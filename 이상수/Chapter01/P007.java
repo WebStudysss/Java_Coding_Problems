@@ -1,5 +1,4 @@
 public class P007 {
-
     public String solution(String s) {
 
         Integer intString = Integer.parseInt(s);
