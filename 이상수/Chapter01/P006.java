@@ -1,7 +1,5 @@
 public class P006 {
-
     public String solution(String s, char c) {
-
         long result1 = s.chars().reduce(0, (int count, int character) -> {
             if (c == character) return count + 1;
             else return count;
